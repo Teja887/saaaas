@@ -1,0 +1,11 @@
+{% load i18n %}
+{% load socialaccount %}
+{% load static %}
+<form method="post" action="{% provider_login_url app.provider %}">
+  {% csrf_token %}
+  <button class="btn btn-outline-secondary w-100" type="submit">
+    {% static 'images/socialauth' as base_url %}
+    <img class="socialicon mr-2" src="{{ base_url }}/{{ app.provider }}-logo.svg" alt="{{ app.name }} {% translate 'Logo' %}">
+    {% translate "Continue with" %} {{ app.name }}
+  </button>
+</form>
