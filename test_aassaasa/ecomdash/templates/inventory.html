@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>Sub Product Name</th>
+            <th>Inventory Available</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for inventory in inventories %}
+        <tr>
+            <td>{{ inventory.sub_product.sp_name }}</td>
+            <td>{{ inventory.inventory_available }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

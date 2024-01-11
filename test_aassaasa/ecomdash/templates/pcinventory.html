@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>Packaging Component Name</th>
+            <th>Inventory Available</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for inventory in inventory_list %}
+        <tr>
+            <td>{{ inventory.packaging_component.packaging_component_name }}</td>
+            <td>{{ inventory.pc_inventory_available }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

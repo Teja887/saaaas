@@ -1,0 +1,301 @@
+"Includes Amazon Marketplace, Fulfillment by Amazon (FBA), and Amazon Webstore transactions",,,,,,,,,,,,,,,,,,,,,,,,,
+"All amounts in INR, unless specified",,,,,,,,,,,,,,,,,,,,,,,,,
+Definitions:,,,,,,,,,,,,,,,,,,,,,,,,,
+"Total sales tax liable:Includes GST or sales tax collected from buyers for product sales, shipping, and gift wrap.",,,,,,,,,,,,,,,,,,,,,,,,,
+TCS-CGST:Tax Collected at Source from Central GST,,,,,,,,,,,,,,,,,,,,,,,,,
+TCS-SGST:Tax Collected at Source from State GST,,,,,,,,,,,,,,,,,,,,,,,,,
+TCS-IGST:Tax Collected at Source from Integrated GST,,,,,,,,,,,,,,,,,,,,,,,,,
+"TDS (Section 194-O): Tax Deducted at Source under Section 194-O of Income tax Act, 1961",,,,,,,,,,,,,,,,,,,,,,,,,
+Selling fees: Includes variable closing fees and referral fees.,,,,,,,,,,,,,,,,,,,,,,,,,
+"Other transaction fees: Includes shipping chargebacks, shipping holdbacks, and sales tax collection fees.
+",,,,,,,,,,,,,,,,,,,,,,,,,
+"Other: Includes non-order transaction amounts. For more details, see the ""Type"" and ""Description"" columns for each order ID.",,,,,,,channel,,,,,,,,,,,,,,,,,,
+date/time,"settlement id
+","type
+",order id,Sku,"description
+",quantity,"marketplace
+",account type,fulfillment,"order city
+","order state
+","order postal
+","product sales
+","shipping credits
+","promotional rebates
+",Total sales tax liable(GST before adjusting TCS),TCS-CGST,TCS-SGST,TCS-IGST,TDS (Section 194-O),"selling fees
+","fba fees
+","other transaction fees
+","other
+","total
+"
+28-Feb-2023 6:52:08 pm UTC,19409421472,"Order
+",408-2714484-2152342,DERR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Rouge Rose), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",HYDERABAD,TELANGANA,500086,495.76,0,-49.58,80.32,0,0,-4.46,-4.47,-31.07,-68.44,-29.5,0,388.56
+28-Feb-2023 6:58:36 pm UTC,19404279072,"Order
+",407-2798565-9176300,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",HAFLONG,ASSAM,788819,495.76,0,0,89.24,0,0,-4.96,-4.96,-34.52,-68.44,-29.5,0,442.62
+28-Feb-2023 7:02:28 pm UTC,19404279072,"Order
+",407-2944988-8747566,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",JORHAT,ASSAM,785101,495.76,33.9,-33.9,89.24,0,0,-4.96,-4.96,-34.52,-68.44,-29.5,0,442.62
+28-Feb-2023 8:15:59 pm UTC,19409421472,"Refund
+",407-6106119-1918737,DESSP01,Daughter Earth Snowdust setting powder,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",BENGALURU,KARNATAKA,560005,-661.02,0,0,-118.98,3.31,3.31,0,0,-42.48,0,29.5,0,-786.36
+28-Feb-2023 9:31:24 pm UTC,19404279072,"Order
+",404-2627318-9181139,ZE-3EUN-3689,DAUGHTER EARTH AHA BHA PHA Exfoliating Cleanser - Daily Face Wash with Fruit Enzymes and Red Algae Extracts- 100ml,1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",BELAGAVI,KARNATAKA,590006,593.22,0,-17.28,103.67,-2.88,-2.88,0,-5.76,-40.1,-52.67,-29.5,0,545.82
+28-Feb-2023 9:31:24 pm UTC,19404279072,"Order
+",404-2627318-9181139,DEHM01,"DAUGHTER EARTH Hemp + Vitamin E Purifying Clay Mask - Pore Minimizing, Acne Control, Blemish Control Volcanic Mask, and Detan Face Pack, 65g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",BELAGAVI,KARNATAKA,590006,661.02,0,-19.24,115.52,-3.21,-3.21,0,-6.42,-44.69,-54.71,-29.5,0,615.56
+28-Feb-2023 9:35:33 pm UTC,19404279072,"Order
+",404-2627318-9181139,DESVC,"Daughter Earth 20% Vitamin C Face Serum with Ginseng + Turmeric, Glow Dew Face Serum, 30 mL",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",BELAGAVI,KARNATAKA,590006,783.9,0,-22.81,137,-3.81,-3.81,0,-7.62,-52.98,-92.04,-29.5,0,708.33
+28-Feb-2023 9:36:49 pm UTC,19404279072,"Order
+",408-0346421-9021974,DEPB01,Daughter Earth Purple Blush with Java Plum + Vitamin E,1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",VISAKHAPATNAM,ANDHRA PRADESH,530046,661.02,0,0,118.98,0,0,-6.61,-6.62,-46.02,-68.44,-29.5,0,622.81
+28-Feb-2023 9:42:28 pm UTC,19409421472,"Order
+",407-4590012-0057957,DECCL2,"DAUGHTER EARTH The Cream Concealer, Lightweight Concealer, Silicone-free makeup, Face MakeUp, Natural Coverage, Creaseless Finish, Pro Concealer with",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MOHALI,PUNJAB,160055,847.46,33.9,-33.9,152.54,0,0,-8.47,-8.48,-59,-31.63,-29.5,0,862.92
+28-Feb-2023 9:42:28 pm UTC,19409421472,"Order
+",407-4590012-0057957,DETE01,Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Terra Rouge (Nude Red)) 4.5g,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MOHALI,PUNJAB,160055,495.76,33.9,-33.9,89.24,0,0,-4.96,-4.96,-34.52,-52.15,-29.5,0,458.91
+28-Feb-2023 10:02:39 pm UTC,19409421472,"Order
+",408-3714981-1512320,ZE-3EUN-3689,DAUGHTER EARTH AHA BHA PHA Exfoliating Cleanser - Daily Face Wash with Fruit Enzymes and Red Algae Extracts- 100ml,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MUMBAI,MAHARASHTRA,400008,593.22,33.9,-33.9,106.78,0,0,-5.93,-5.94,-41.3,-68.44,-29.5,0,548.89
+28-Feb-2023 10:05:00 pm UTC,19409421472,"Order
+",403-7456411-7590702,DEHS01,"Daughter Earth The Shampoo for Nourishment, Hairfall rescue, Dandruff and frizzy hair, Sulfate free, SLS and Paraben Free Volumizing Shampoo, 250 mL",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",KOLKATA,WEST BENGAL,700084,627.12,33.9,-96.61,101.59,0,0,-5.64,-5.65,-39.3,-68.44,-29.5,0,517.47
+28-Feb-2023 10:05:20 pm UTC,19404279072,"Order
+",402-8355579-8557962,DECR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coral Nude), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",FARIDABAD,HARYANA,121004,495.76,33.9,-33.9,89.24,-2.48,-2.48,0,-4.96,-34.52,-68.44,-29.5,0,442.62
+28-Feb-2023 11:04:07 pm UTC,19409421472,"Order
+",407-6106306-2826749,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MUMBAI,MAHARASHTRA,400028,495.76,33.9,-33.9,89.24,-2.48,-2.48,0,-4.96,-34.52,-68.44,-29.5,0,442.62
+28-Feb-2023 11:29:43 pm UTC,19404279072,"Order
+",404-8635552-9139551,DESF02,"Daughter Earth SUNNYDIP Mineral Sunscreen with Vitamin C, SPF 35, PA+++",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",KOLKATA,WEST BENGAL,700071,970.34,33.9,-130.93,157.19,0,0,-8.73,-8.74,-72.95,-68.44,-55.46,0,816.18
+01-Mar-2023 12:39:27 am UTC,19404279072,Fulfilment Fee Refund,171-5064308-3943557,,Fulfillment Fee Refund,,Amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,70.8,0,0,70.8
+01-Mar-2023 12:54:41 am UTC,19404279072,"Refund
+",171-5064308-3943557,DELTGR,"DAUGHTER EARTH 100% Vegan Natural Lipstick, Highly Pigmented Lightweight Lip Color, Matte Finish, 4.2 g - GYPSY ROSE",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",GURUGRAM,HARYANA,122001,-810.17,-33.9,114.92,-131.25,0,0,7.29,0,50.76,0,35.4,0,-766.95
+01-Mar-2023 4:06:12 am UTC,19409421472,"Order
+",403-7437585-3315524,DESF02,"Daughter Earth SUNNYDIP Mineral Sunscreen with Vitamin C, SPF 35, PA+++",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Pala,KERALA,686577,970.34,33.9,-33.9,174.66,0,0,-9.7,-9.71,-81.06,-68.44,-55.46,0,920.63
+01-Mar-2023 4:30:07 am UTC,19404279072,"Order
+",408-6951031-3772305,DEGF01,"Daughter Earth The Shampoo & The Conditioner with Purple Rice + Quinoa, 250 mL each",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",Mangalore,KARNATAKA,575001,"1,271.19",0,-127.12,205.93,0,0,-11.44,-11.45,-79.65,-80.84,-68.44,0,"1,098.18"
+01-Mar-2023 4:30:39 am UTC,19409421472,"Order
+",405-5255595-1753944,DELTGR,"DAUGHTER EARTH 100% Vegan Natural Lipstick, Highly Pigmented Lightweight Lip Color, Matte Finish, 4.2 g - GYPSY ROSE",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",BENGALURU,KARNATAKA,560068,810.17,0,0,145.83,0,0,-8.1,-8.11,-56.4,-60.78,-35.4,0,787.21
+01-Mar-2023 4:31:16 am UTC,19409421472,"Order
+",404-6629462-9409957,DELTGR,"DAUGHTER EARTH 100% Vegan Natural Lipstick, Highly Pigmented Lightweight Lip Color, Matte Finish, 4.2 g - GYPSY ROSE",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",BENGALURU,KARNATAKA,560035,810.17,0,-81.02,131.25,0,0,-7.29,-7.3,-50.76,-60.78,-35.4,0,698.87
+01-Mar-2023 4:56:34 am UTC,19409421472,"Order
+",406-8551430-0153104,DELQ02,"DAUGHTER EARTH Vitamin E Liquid Lipstick, Highly Pigmented Lightweight Lip Color, Long lasting Matte Smudge-Proof, and transfer-proof Lipstick, Vegan",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",CHOWWARA,KERALA,683575,667.8,0,0,120.2,0,0,-6.68,-6.68,-46.5,-68.44,-29.5,0,630.2
+01-Mar-2023 4:58:59 am UTC,19409421472,"Order
+",404-6833735-7629918,ZE-3EUN-3689,DAUGHTER EARTH AHA BHA PHA Exfoliating Cleanser - Daily Face Wash with Fruit Enzymes and Red Algae Extracts- 100ml,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MUMBAI,MAHARASHTRA,400088,741.53,33.9,-33.9,133.47,0,0,-7.42,-7.42,-51.63,-68.44,-29.5,0,710.59
+01-Mar-2023 7:12:39 am UTC,19409421472,"Order
+",402-9458209-9212314,DECR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coral Nude), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",NEW DELHI,DELHI,110058,673.73,148.31,-67.37,135.83,0,0,-7.54,-7.55,-42.22,-243.44,-29.5,0,560.25
+01-Mar-2023 7:25:16 am UTC,19409421472,"Order
+",405-9220640-7753938,DECCL1,"DAUGHTER EARTH The Concealer, Breathable & High Coverage, Lightweight Cream Concealer, Silicone-free makeup, Vegan MakeUp, Natural Coverage, Creaseles",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Ernakulam,KERALA,682030,847.46,0,-84.75,137.29,0,0,-7.63,-7.63,-53.1,-68.44,-29.5,0,733.7
+01-Mar-2023 8:57:34 am UTC,19404279072,"Order
+",405-7954166-9280338,DECCL2,"DAUGHTER EARTH The Cream Concealer, Lightweight Concealer, Silicone-free makeup, Face MakeUp, Natural Coverage, Creaseless Finish, Pro Concealer with",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",Manipal,KARNATAKA,576104,847.46,33.9,-33.9,152.54,-4.24,-4.24,0,-8.48,-59,-68.44,-29.5,0,826.1
+01-Mar-2023 9:02:32 am UTC,19409421472,"Order
+",403-5301838-9543516,DESVC,"Daughter Earth 20% Vitamin C Face Serum with Ginseng + Turmeric, Glow Dew Face Serum, 30 mL",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+","Kattappana P.O, Idukki Dist",KERALA,685508,783.9,0,-78.39,126.99,0,0,-7.06,-7.06,-49.13,-92.04,-29.5,0,647.71
+01-Mar-2023 9:25:27 am UTC,19409421472,"Shipping Services
+",402-4332534-0165936,,Easy Ship weight handling fees,,Amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),Merchant,,,,0,0,0,0,0,0,0,0,0,0,-40.12,0,-40.12
+01-Mar-2023 9:40:42 am UTC,19409421472,"Order
+",402-4332534-0165936,DES0402,"DAUGHTER EARTH Antioxidant Lip balm | 100% Vegan and Beeswax-free | Lip Care for Dry, Chapped and Pigmented Lips | Moisturizing and Hydrating Natural",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),Merchant,HYDERABAD,TELANGANA,500016,478.82,0,0,86.18,-2.39,-2.39,0,-4.79,-33.34,0,-35.4,0,486.69
+01-Mar-2023 9:53:32 am UTC,19409421472,"Order
+",406-9031594-1727564,9W-LU4T-12TO,"DAUGHTER EARTH Succulent Gel Moisturiser with Kombucha Essence + Plant Stem Cell Extracts | Hydrating ,Soothing & Nourishing Gel Moisturizer For Oily",2,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",CALANGUTE,GOA,403516,"2,025.42",67.8,-67.8,364.58,0,0,-20.26,-20.26,-141.02,-140.42,-110.92,0,"1,957.12"
+01-Mar-2023 11:26:36 am UTC,19404279072,"Order
+",406-6171295-5296332,DEBL01,DAUGHTER EARTH Kombucha Essence + Plant Stem Cells Blue Light Mist | Toning and Hydrating Mist for Blue Light Skincare | 100% Vegan - 50 mL,1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",GREATER NOIDA,UTTAR PRADESH,201310,532.2,33.9,-33.9,95.8,0,0,-5.32,-5.33,-37.05,-37.52,-29.5,0,513.28
+01-Mar-2023 11:26:36 am UTC,19404279072,"Order
+",406-6171295-5296332,9W-LU4T-12TO,"DAUGHTER EARTH Succulent Gel Moisturiser with Kombucha Essence + Plant Stem Cell Extracts | Hydrating ,Soothing & Nourishing Gel Moisturizer For Oily",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",GREATER NOIDA,UTTAR PRADESH,201310,810.17,33.9,-33.9,145.83,0,0,-8.1,-8.11,-56.4,-69.86,-29.5,0,784.03
+01-Mar-2023 11:38:58 am UTC,19404279072,"Order
+",404-0220070-4452352,DECCL4,"DAUGHTER EARTH The Concealer, Breathable & High Coverage, Lightweight Cream Concealer, Silicone-free makeup, Vegan MakeUp, Natural Coverage, Creaseles",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",Bengaluru,KARNATAKA,560064,847.46,33.9,-33.9,152.54,-4.24,-4.24,0,-8.48,-70.8,-68.44,-29.5,0,814.3
+01-Mar-2023 1:18:17 pm UTC,19404279072,"Order
+",406-3585025-5949109,DERR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Rouge Rose), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",NEW DELHI,DELHI,110023,673.73,33.9,-33.9,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+01-Mar-2023 1:30:08 pm UTC,19409421472,"Order
+",405-1512070-8178746,DEBL01,DAUGHTER EARTH Kombucha Essence + Plant Stem Cells Blue Light Mist | Toning and Hydrating Mist for Blue Light Skincare | 100% Vegan - 50 mL,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Kolkata,WEST BENGAL,700008,532.2,33.9,-33.9,95.8,0,0,-5.32,-5.33,-37.05,-68.44,-29.5,0,482.36
+01-Mar-2023 1:30:50 pm UTC,19404279072,"Order
+",171-0915322-2197943,9W-LU4T-12TO,"DAUGHTER EARTH Succulent Gel Moisturiser with Kombucha Essence + Plant Stem Cell Extracts | Hydrating ,Soothing & Nourishing Gel Moisturizer For Oily",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",MYSURU,KARNATAKA,570008,"1,012.72",0,0,182.28,-5.06,-5.06,0,-10.13,-70.51,-67.55,-55.46,0,981.23
+01-Mar-2023 1:30:50 pm UTC,19404279072,"Order
+",171-0915322-2197943,DESF02,"Daughter Earth SUNNYDIP Mineral Sunscreen with Vitamin C, SPF 35, PA+++",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",MYSURU,KARNATAKA,570008,970.34,0,0,174.66,-4.85,-4.85,0,-9.71,-81.06,-39.83,-55.46,0,949.24
+01-Mar-2023 1:55:49 pm UTC,19409421472,"Order
+",403-0969231-4297125,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",DHAMTARI,CHHATTISGARH,493773,673.73,33.9,-101.27,109.14,0,0,-6.06,-6.07,-42.22,-68.44,-29.5,0,563.21
+01-Mar-2023 1:58:41 pm UTC,19409421472,"Order
+",402-3872163-4065917,DEGL01,Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Glacial Nude),1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",pune,MAHARASHTRA,411038,673.73,0,0,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+01-Mar-2023 2:39:19 pm UTC,19409421472,"Order
+",404-7758051-1247521,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",VADODARA,GUJARAT,391410,673.73,33.9,-101.27,109.14,0,0,-6.06,-6.07,-42.22,-68.44,-29.5,0,563.21
+01-Mar-2023 3:14:20 pm UTC,19409421472,"Order
+",406-2446048-3306758,ZE-3EUN-3689,DAUGHTER EARTH AHA BHA PHA Exfoliating Cleanser - Daily Face Wash with Fruit Enzymes and Red Algae Extracts- 100ml,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",HYDERABAD,TELANGANA,500015,741.53,0,-74.15,120.12,0,0,-6.67,-6.68,-46.46,-68.44,-29.5,0,629.75
+01-Mar-2023 3:21:12 pm UTC,19404279072,"Refund
+",407-1977266-7403522,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",KANPUR,UTTAR PRADESH,208001,-495.76,0,0,-89.24,0,0,4.96,0,34.52,0,29.5,0,-516.02
+01-Mar-2023 4:08:31 pm UTC,19409421472,"Order
+",405-6817757-9581929,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",PUNE,MAHARASHTRA,411038,673.72,33.9,-101.27,109.15,-3.03,-3.03,0,-6.07,-42.22,-68.44,-29.5,0,563.21
+01-Mar-2023 4:23:31 pm UTC,19404279072,"Order
+",171-9707054-2549942,DECR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coral Nude), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",CHITRADURGA,KARNATAKA,577501,495.76,33.9,-33.9,89.24,-2.48,-2.48,0,-4.96,-34.51,-68.44,-29.5,0,442.63
+01-Mar-2023 4:55:18 pm UTC,19409421472,"Order
+",171-3021961-5404322,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",HYDERABAD,TELANGANA,500032,673.73,0,-67.37,109.14,0,0,-6.06,-6.07,-42.22,-68.44,-29.5,0,563.21
+01-Mar-2023 5:38:16 pm UTC,19409421472,"Order
+",403-5198842-7267566,DEPB01,Daughter Earth Purple Blush with Java Plum + Vitamin E,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",NEW DELHI,DELHI,110053,661.02,33.9,-33.9,118.98,0,0,-6.61,-6.62,-46.02,-68.44,-29.5,0,622.81
+01-Mar-2023 5:42:58 pm UTC,19409421472,"Order
+",404-9224963-3924321,DEAM01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Amor - True Red), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",FARIDABAD,HARYANA,121005,495.76,33.9,-33.9,89.24,-2.48,-2.48,0,-4.96,-34.52,-68.44,-29.5,0,442.62
+01-Mar-2023 7:15:25 pm UTC,19447253172,"Order
+",402-6461390-0530756,DEBL01,DAUGHTER EARTH Kombucha Essence + Plant Stem Cells Blue Light Mist | Toning and Hydrating Mist for Blue Light Skincare | 100% Vegan - 50 mL,1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",GURUGRAM,HARYANA,122505,665.26,33.9,-33.9,119.74,-3.33,-3.33,0,-6.66,-46.32,-68.44,-29.5,0,627.42
+01-Mar-2023 7:44:44 pm UTC,19447253172,"Order
+",402-4553299-1603536,B0895D4BLT,"DAUGHTER EARTH - Eternal Youth Rejuvenating Face Serum, 100% Vegan, Natural & Ayurvedic Brightening Serum (15 ml)",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",NEW DELHI,DELHI,110034,"1,605.93",0,0,289.07,0,0,-16.06,-16.06,-111.81,-68.44,-55.46,0,"1,627.17"
+01-Mar-2023 7:46:46 pm UTC,19409421472,"Order
+",403-1845084-6882724,DELUM01,Daughter Earth Illuminator (Glow Goddess),1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MAPUSA,GOA,403507,826.27,0,-82.63,133.86,0,0,-7.44,-7.44,-51.78,-68.44,-29.5,0,712.9
+01-Mar-2023 7:57:54 pm UTC,19409421472,"Order
+",406-3364472-8272357,DESVC,"Daughter Earth 20% Vitamin C Face Serum with Ginseng + Turmeric, Glow Dew Face Serum, 30 mL",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MUMBAI,MAHARASHTRA,400072,783.9,0,-78.39,126.99,-3.53,-3.53,0,-7.06,-49.12,-92.04,-29.5,0,647.72
+01-Mar-2023 9:43:26 pm UTC,19409421472,"Service Fee
+",,,Cost of Advertising,,,Electronic Transactions (Credit Card/Net Banking/GC),,,,,0,0,0,0,0,0,0,0,0,0,"-1,918.67",-345.36,"-2,264.03"
+01-Mar-2023 10:09:26 pm UTC,19409421472,"Order
+",403-5807422-7285164,DECR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coral Nude), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",PUNE,MAHARASHTRA,411014,495.76,33.9,-83.48,80.32,0,0,-4.46,-4.47,-31.07,-68.44,-29.5,0,388.56
+01-Mar-2023 10:24:35 pm UTC,19447253172,Fulfilment Fee Refund,406-9500917-5563532,,Fulfillment Fee Refund,,Amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,68.44,0,0,68.44
+01-Mar-2023 10:39:48 pm UTC,19447253172,"Refund
+",406-9500917-5563532,DEAM01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Amor - True Red), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",HYDERABAD,TELANGANA,500036,-495.76,-33.9,33.9,-89.24,2.48,2.48,0,0,34.52,0,29.5,0,-516.02
+01-Mar-2023 11:54:11 pm UTC,19447253172,"Refund
+",405-5274250-9910704,DECCL1,"DAUGHTER EARTH The Concealer, Breathable & High Coverage, Lightweight Cream Concealer, Silicone-free makeup, Vegan MakeUp, Natural Coverage, Creaseles",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",BENGALURU,KARNATAKA,560024,-847.46,-33.9,33.9,-152.54,4.24,4.24,0,0,59,0,29.5,0,-903.02
+02-Mar-2023 2:57:47 am UTC,19447253172,"Adjustment
+",402-2647237-5676309,ZE-3EUN-3689,FBA Inventory Reimbursement - Customer Return,1,,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,0,0,515.78,515.78
+02-Mar-2023 3:48:32 am UTC,19447253172,"Order
+",171-1902703-7165903,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",Seoni,MADHYA PRADESH,480661,673.73,33.9,-33.9,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 4:30:44 am UTC,19409421472,"Order
+",402-8304377-6421149,ZE-3EUN-3689,DAUGHTER EARTH AHA BHA PHA Exfoliating Cleanser - Daily Face Wash with Fruit Enzymes and Red Algae Extracts- 100ml,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",BENGALURU,KARNATAKA,560075,741.52,33.9,-33.9,133.48,-3.71,-3.71,0,-7.42,-51.63,-68.44,-29.5,0,710.59
+02-Mar-2023 4:42:00 am UTC,19409421472,"Order
+",402-1949020-2597162,DELTGR,"DAUGHTER EARTH 100% Vegan Natural Lipstick, Highly Pigmented Lightweight Lip Color, Matte Finish, 4.2 g - GYPSY ROSE",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",DIMAPUR,NAGALAND,797112,830.51,33.9,-33.9,149.49,0,0,-8.31,-8.31,-57.82,-86.14,-35.4,0,784.02
+02-Mar-2023 5:03:45 am UTC,19409421472,"Order
+",405-5334409-2431528,DELM01,"Daughter Earth Dreamy Lip Mask (Lip Balm) with Vitamin E and Huang Qi 15g, Glossy Finish - Natural",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Menamkulam,KERALA,695301,588.98,0,0,106.02,0,0,-5.89,-5.89,-41.01,-68.44,-29.5,0,544.27
+02-Mar-2023 5:06:27 am UTC,19409421472,"Order
+",407-4771641-9859535,DELM01,"Daughter Earth Dreamy Lip Mask (Lip Balm) with Vitamin E and Huang Qi 15g, Glossy Finish - Natural",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",NOIDA,UTTAR PRADESH,201304,588.98,0,0,106.02,0,0,-5.89,-5.89,-41.01,-68.44,-29.5,0,544.27
+02-Mar-2023 5:44:22 am UTC,19409421472,"Order
+",408-7580099-6788356,DESF02,"Daughter Earth SUNNYDIP Mineral Sunscreen with Vitamin C, SPF 35, PA+++",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",THANE,MAHARASHTRA,400604,970.34,0,-97.03,157.19,-4.37,-4.37,0,-8.74,-72.96,-68.44,-55.46,0,816.16
+02-Mar-2023 6:07:53 am UTC,19447253172,"Order
+",406-8833297-1533927,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",SAHARANPUR,UTTAR PRADESH,247001,673.73,33.9,-33.9,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 7:15:50 am UTC,19409421472,"Order
+",402-6387913-4201167,DESA001,DAUGHTER EARTH - Bakuchiol Serum with blue light rescue- Serum Absolut - 30ml,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",KATTANAM,KERALA,690503,"1,860.17",0,-186.02,301.35,0,0,-16.74,-16.75,-116.56,-68.44,-55.46,0,"1,701.55"
+02-Mar-2023 7:55:35 am UTC,19409421472,"Order
+",402-1054611-5992329,DEPB01,Daughter Earth Purple Blush with Java Plum + Vitamin E,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Mumbai,MAHARASHTRA,400067,826.28,0,-82.63,133.85,-3.72,-3.72,0,-7.44,-51.78,-68.44,-29.5,0,712.9
+02-Mar-2023 8:01:28 am UTC,19447253172,"Adjustment
+",402-4141970-3325922,DECR01,FBA Inventory Reimbursement - Customer Return,1,,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,0,0,390.83,390.83
+02-Mar-2023 8:10:16 am UTC,19409421472,"Order
+",407-1795478-9435503,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Pune,MAHARASHTRA,411038,673.72,0,0,121.28,-3.37,-3.37,0,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 8:14:20 am UTC,19409421472,"Order
+",408-6596937-9565106,DEDLT1,Daughter Earth Kissing Glass Wet Lip Coat,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",NAVI MUMBAI,MAHARASHTRA,400709,741.53,33.9,-108.05,120.12,0,0,-6.67,-6.68,-55.75,-68.44,-29.5,0,620.46
+02-Mar-2023 8:22:00 am UTC,19409421472,"Order
+",406-3565386-7237903,DELM01,"Daughter Earth Dreamy Lip Mask (Lip Balm) with Vitamin E and Huang Qi 15g, Glossy Finish - Natural",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",GHAZIABAD,UTTAR PRADESH,201005,588.98,0,0,106.02,0,0,-5.89,-5.89,-41.01,-68.44,-29.5,0,544.27
+02-Mar-2023 9:48:46 am UTC,19447253172,Others,TDS-Case-8454615492-Certificate-CGTBWMA,,TDS Reimbursement,,Amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,0,0,"26,316.00","26,316.00"
+02-Mar-2023 10:51:49 am UTC,19447253172,"Transfer
+",,,To account ending with: ,,,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,0,0,"-66,185.69","-66,185.69"
+02-Mar-2023 11:06:08 am UTC,19409421472,"Order
+",408-5122298-9546744,DETE01,Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Terra Rouge (Nude Red)) 4.5g,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",NEW DELHI,DELHI,110057,495.76,33.9,-33.9,89.24,0,0,-4.96,-4.96,-34.52,-68.44,-29.5,0,442.62
+02-Mar-2023 12:07:04 pm UTC,19447253172,"Order
+",408-2579429-9345116,DECCL5,"DAUGHTER EARTH The Concealer, Breathable & High Coverage, Lightweight Cream Concealer, Silicone-free makeup, Vegan MakeUp, Natural Coverage, Creaseles",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",SITAPUR,UTTAR PRADESH,261001,"1,059.32",33.9,-33.9,190.68,0,0,-10.59,-10.6,-88.5,-68.44,-55.46,0,"1,016.41"
+02-Mar-2023 12:43:52 pm UTC,19453778972,"Order
+",405-3276613-8785150,DESSP01,Daughter Earth Snowdust setting powder,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MUMBAI,MAHARASHTRA,400061,826.27,0,0,148.73,0,0,-8.26,-8.27,-57.53,-68.44,-29.5,0,803
+02-Mar-2023 12:51:15 pm UTC,19447253172,"Order
+",405-6300585-9172338,DECCL5,"DAUGHTER EARTH The Concealer, Breathable & High Coverage, Lightweight Cream Concealer, Silicone-free makeup, Vegan MakeUp, Natural Coverage, Creaseles",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",NEW DELHI,DELHI,110027,"1,059.32",0,0,190.68,0,0,-10.59,-10.6,-88.5,-68.44,-55.46,0,"1,016.41"
+02-Mar-2023 12:52:51 pm UTC,19453778972,"Order
+",171-4121131-3717908,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",HYDERABAD,TELANGANA,500081,673.73,33.9,-33.9,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 1:53:12 pm UTC,19447253172,"Adjustment
+",406-8929505-4038721,DECS01,FBA Inventory Reimbursement - Customer Return,1,,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,0,0,390.83,390.83
+02-Mar-2023 4:38:43 pm UTC,19453778972,"Order
+",407-1896420-3920323,DEDLT1,Daughter Earth Kissing Glass Wet Lip Coat,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MUMBAI,MAHARASHTRA,400042,741.52,0,0,133.48,-3.71,-3.71,0,-7.42,-61.95,-68.44,-29.5,0,700.27
+02-Mar-2023 4:43:25 pm UTC,19453778972,"Order
+",408-5152110-9172358,DECR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coral Nude), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",SOUTH DELHI,DELHI,110017,673.73,33.9,-101.27,109.14,0,0,-6.06,-6.07,-42.22,-68.44,-29.5,0,563.21
+02-Mar-2023 5:10:22 pm UTC,19453778972,"Order
+",406-1651049-3802747,DECR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coral Nude), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",BAREILLY,UTTAR PRADESH,243001,673.73,33.9,-101.27,109.14,0,0,-6.06,-6.07,-42.22,-68.44,-29.5,0,563.21
+02-Mar-2023 6:04:37 pm UTC,19453778972,"Order
+",405-7854608-3594725,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Mumbai,Maharashtra,400027,673.72,0,0,121.28,-3.37,-3.37,0,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 6:28:04 pm UTC,19453778972,"Order
+",402-9962947-6497126,DEUS01,"Daughter Earth Under Eye Serum, 15mL",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",HYDERABAD,TELANGANA,502032,"1,097.46",0,0,197.54,0,0,-10.97,-10.98,-76.41,-68.44,-55.46,0,"1,072.74"
+02-Mar-2023 7:00:20 pm UTC,19453778972,"Order
+",403-7667471-1291541,DECR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coral Nude), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",NEW DELHI,DELHI,110048,673.73,33.9,-33.9,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 7:04:54 pm UTC,19453778972,"Service Fee
+",,,Cost of Advertising,,,Electronic Transactions (Credit Card/Net Banking/GC),,,,,0,0,0,0,0,0,0,0,0,0,"-2,058.96",-370.61,"-2,429.57"
+02-Mar-2023 7:17:42 pm UTC,19447253172,"Order
+",404-9741525-3438717,DELUM01,Daughter Earth Illuminator (Glow Goddess),1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",HYDERABAD,TELANGANA,500070,826.27,33.9,-33.9,148.73,0,0,-8.26,-8.27,-57.53,-68.44,-29.5,0,803
+02-Mar-2023 7:38:26 pm UTC,19453778972,"Order
+",403-7466617-4310726,DELC02,Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Coffee Nude),1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",MUMBAI,MAHARASHTRA,400020,673.73,33.9,-33.9,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 8:20:28 pm UTC,19453778972,"Order
+",406-6740996-2152337,9W-LU4T-12TO,"DAUGHTER EARTH Succulent Gel Moisturiser with Kombucha Essence + Plant Stem Cell Extracts | Hydrating ,Soothing & Nourishing Gel Moisturizer For Oily",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",Bengaluru,KARNATAKA,560078,"1,012.72",0,-101.27,164.05,-4.56,-4.56,0,-9.12,-63.46,-92.04,-55.46,0,846.3
+02-Mar-2023 8:48:55 pm UTC,19453778972,"Order
+",403-0211977-3093979,DERR01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Rouge Rose), 4.5g",1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",PUNE,MAHARASHTRA,412308,673.72,33.9,-33.9,121.28,-3.37,-3.37,0,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 9:54:00 pm UTC,19447253172,"Order
+",405-3323652-6457935,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",ERNAKULAM,KERALA,682035,673.73,33.9,-33.9,121.27,0,0,-6.74,-6.74,-46.91,-68.44,-29.5,0,636.67
+02-Mar-2023 10:40:06 pm UTC,19447253172,"Order
+",408-4635731-8254724,DELC01,"Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Original Pink), 4.5g",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",DAPORIJO,ARUNACHAL PRADESH,791122,661.02,33.9,-33.9,118.98,0,0,-6.61,-6.62,-46.02,-68.44,-29.5,0,622.81
+02-Mar-2023 11:57:31 pm UTC,19447253172,Fulfilment Fee Refund,404-3717549-7585923,,Fulfillment Fee Refund,,Amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,68.44,0,0,68.44
+03-Mar-2023 12:13:07 am UTC,19447253172,"Refund
+",404-3717549-7585923,DETE01,Daughter Earth 100% Vegan Lip and cheek tint | Natural Blush | Lip tint | cheek tint (Terra Rouge (Nude Red)) 4.5g,1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",BENGALURU,KARNATAKA,560078,-495.76,-33.9,33.9,-89.24,0,0,4.96,0,34.52,0,29.5,0,-516.02
+03-Mar-2023 12:25:05 am UTC,19447253172,Fulfilment Fee Refund,404-5357187-3794721,,Fulfillment Fee Refund,,Amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,,,,,0,0,0,0,0,0,0,0,0,68.44,0,0,68.44
+03-Mar-2023 12:40:31 am UTC,19447253172,"Refund
+",404-5357187-3794721,DEHS01,"Daughter Earth The Shampoo for Nourishment, Hairfall rescue, Dandruff and frizzy hair, Sulfate free, SLS and Paraben Free Volumizing Shampoo, 250 mL",1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",WARANGAL,TELANGANA,506002,-627.12,-33.9,33.9,-112.88,0,0,6.27,0,43.66,0,29.5,0,-660.57
+03-Mar-2023 4:15:03 am UTC,19453778972,"Order
+",404-3725912-3380302,ZE-3EUN-3689,DAUGHTER EARTH AHA BHA PHA Exfoliating Cleanser - Daily Face Wash with Fruit Enzymes and Red Algae Extracts- 100ml,1,amazon.in,Electronic Transactions (Credit Card/Net Banking/GC),"Amazon
+",COIMBATORE,TAMIL NADU,641004,741.53,0,0,133.47,0,0,-7.42,-7.42,-51.63,-68.44,-29.5,0,710.59
+03-Mar-2023 4:17:56 am UTC,19447253172,"Order
+",406-2836848-2983512,DESSP01,Daughter Earth Snowdust setting powder,1,amazon.in,Cash On Delivery Transactions and Non-Transactional Fees,"Amazon
+",KOLKATA,WEST BENGAL,700075,826.27,33.9,-33.9,148.73,0,0,-8.26,-8.27,-57.53,-68.44,-29.5,0,803

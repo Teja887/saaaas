@@ -50,6 +50,8 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.sites",
     "django.forms",
+    "ecomdash",
+    "ecomboard",
 ]
 
 # Put your third-party apps here
